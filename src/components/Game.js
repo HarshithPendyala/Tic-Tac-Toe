@@ -49,7 +49,7 @@ const Game = () => {
         <>
             <div className="container">
                 <div className="row align-items-center" >
-                    <img src={logo} className="col-3 col-sm-2 App-logo"/>
+                    <img src={logo} className="col-3 col-sm-2 App-logo" alt="App-logo"/>
                     <h3 className="col col-sm-4 " >Tic-Tac-Toe</h3>
                 </div>
                 <div className="row align-items-center">

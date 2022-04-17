@@ -1,5 +1,4 @@
 {
-  "homepage":"http://harshithpendyala.github.io/Tic-Tac-Toe",
   "name": "tic-tac-toe",
   "version": "0.1.0",
   "private": true,
@@ -14,8 +13,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "deploy": "npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
