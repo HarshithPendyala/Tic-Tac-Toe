@@ -3,10 +3,7 @@ import {calculateWinner} from '../helper'
 import Board from './Board';
 import logo from '../logo.svg';
 
-const style = {
-    width: '250px',
-    margin: '20px auto',
-}
+
 
 const Game = () => {
     const [history,sethistory] = useState([Array(9).fill(null)]);
